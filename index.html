@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CleanPush — Push Ups to Scroll</title>
+<meta name="description" content="CleanPush locks the apps you choose and gives screen time back for exercise you actually do.">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://soloranez21.github.io/cleanpush-app/">
+<style>
+:root {
+  --ember: #ff5c1f;
+  --ember-bright: #ffb067;
+  --bg: #ffffff;
+  --panel: #f6f6f8;
+  --ink: #16161a;
+  --muted: #55555f;
+  --rule: #e3e3e8;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #060609;
+    --panel: #0f0f15;
+    --ink: #f5f5f7;
+    --muted: #9a9aa6;
+    --rule: #24242e;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+.wrap { max-width: 44rem; margin: 0 auto; padding: 0 22px 96px; }
+header.site {
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 44px;
+  padding: 26px 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 22px;
+}
+header.site a.brand {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  text-decoration: none;
+}
+header.site a.brand span { color: var(--ember); }
+header.site nav { display: flex; gap: 18px; margin-left: auto; }
+header.site nav a { color: var(--muted); text-decoration: none; font-size: 15px; }
+header.site nav a:hover, header.site nav a[aria-current] { color: var(--ember); }
+h1 {
+  font-size: clamp(30px, 6vw, 40px);
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  margin: 0 0 10px;
+}
+h2 {
+  font-size: 22px;
+  letter-spacing: -0.01em;
+  margin: 44px 0 12px;
+  padding-top: 22px;
+  border-top: 1px solid var(--rule);
+}
+h3 { font-size: 18px; margin: 28px 0 8px; }
+p, li { color: var(--ink); }
+p { margin: 0 0 16px; }
+ul, ol { margin: 0 0 16px; padding-left: 22px; }
+li { margin-bottom: 8px; }
+a { color: var(--ember); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+strong { font-weight: 650; }
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.88em;
+  background: var(--panel);
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+.effective {
+  color: var(--muted);
+  font-size: 15px;
+  margin: 0 0 34px;
+}
+footer.site {
+  margin-top: 56px;
+  padding-top: 20px;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 14px;
+}
+footer.site a { color: var(--muted); }
+.lede { font-size: 19px; color: var(--muted); margin: 0 0 34px; }
+.cards { display: grid; gap: 14px; margin: 34px 0 0; }
+.card {
+  display: block;
+  padding: 20px 22px;
+  border: 1px solid var(--rule);
+  border-radius: 14px;
+  background: var(--panel);
+  text-decoration: none;
+  color: var(--ink);
+}
+.card:hover { border-color: var(--ember); }
+.card b { display: block; font-size: 17px; margin-bottom: 4px; }
+.card span { color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+  <a class="brand" href="https://soloranez21.github.io/cleanpush-app/">Clean<span>Push</span></a>
+  <nav>
+    <a href="https://soloranez21.github.io/cleanpush-app/privacy/">Privacy</a>
+    <a href="https://soloranez21.github.io/cleanpush-app/terms/">Terms</a>
+    <a href="https://soloranez21.github.io/cleanpush-app/support/">Support</a>
+  </nav>
+</header>
+<main>
+<h1>CleanPush</h1>
+<p class="lede">Lock the apps that eat your day. Earn them back one push-up at a time —
+counted on your iPhone by the front camera, with nothing recorded and nothing uploaded.</p>
+<div class="cards">
+<a class="card" href="https://soloranez21.github.io/cleanpush-app/support/"><b>Support</b><span>Setup, rep counting, app locking, subscriptions — and a human to email.</span></a>
+<a class="card" href="https://soloranez21.github.io/cleanpush-app/privacy/"><b>Privacy policy</b><span>What the app collects, what it never collects, and why the camera never leaves the device.</span></a>
+<a class="card" href="https://soloranez21.github.io/cleanpush-app/terms/"><b>Terms of use</b><span>The agreement covering the subscription, exercise safety, and Screen Time.</span></a>
+</div>
+</main>
+<footer class="site">
+Aleksandr Saliukov · <a href="mailto:sashasaliukov@gmail.com">sashasaliukov@gmail.com</a> · Updated 27 July 2026
+</footer>
+</div>
+</body>
+</html>
